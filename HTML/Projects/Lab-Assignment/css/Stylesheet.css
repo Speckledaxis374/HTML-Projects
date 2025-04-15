@@ -1,0 +1,57 @@
+.wp{
+    background-color:darkblue;
+    color: black;
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    width: 100%;
+    padding: auto;
+    margin: auto;
+}
+
+.i{
+    padding: 15px;
+}
+
+div{
+    background-color: white;
+    margin: auto;
+    width: 80%;
+}
+
+h1{
+    font-family: Arial, sans-serif;
+    font-size: 24pt;
+    color: darkblue;
+    font-weight: normal;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h2{
+    font-size: 14pt;
+    color:red;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    height: 12px;
+    background-color: darkblue;
+}
+
+p{
+    margin: auto;
+    padding: auto;  
+    text-align: center;
+}
+
+span{
+    color: lawngreen;
+}

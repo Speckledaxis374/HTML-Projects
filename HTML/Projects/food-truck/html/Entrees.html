@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soul for Real</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="../css/truck.css">
+    <style>
+      #wings p {
+        color: black;
+        transform: translateY(40px);
+      }
+      #Chops p {
+        color: black;
+        transform: translateY(46px);
+      }
+      #fish p {
+        color: black;
+        transform: translateY(46px);
+      }
+      #Brisket p{
+        color: black;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(46px);
+      }
+      @media screen and (max-width:550px) {
+        #wings p {
+          transform: translateY(40px);
+        }
+        
+      }
+    </style>
+</head>
+<header>
+    <div class="head-logo">
+        <a href="./index.html"><img src="../imgs/logo.jpg"></a>
+        <h3 class="cookie-regular">Soul for Real</h3>
+    </div>
+   
+</header>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="./index.html">Home</a>
+    <a href="./Entrees.html">Entrees</a>
+    <a href="./Sides.html">Sides</a>
+    <a href="./Desserts.html">Desserts</a>
+    <a style="transform: translateY(400px); font-size: 30px; padding-left: 2%;">"Soul for Real"</a>
+  </div>
+
+  <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  </div>
+
+    
+    <div class="services" id="services_entrees">
+        <h1></h1>
+        <div class="services_wrapper" id="services_wrapper_entrees">
+          <div class="services_card_entrees" id="wings" >
+            <h2>Fried chicken Wings</h2>
+            <p>$10</p>
+            <div class="services_btn"></div>
+          </div>
+          <div class="services_card_entrees" id="Chops" >
+            <h2>Smothered pork chops</h2>
+            <p>$9</p>
+            <div class="services_btn"></div>
+          </div>
+          <div class="services_card_entrees" id="fish">
+            <h2>Fried Catfish</h2>
+            <p>$11</p>
+            <div class="services_btn"></div>
+          </div>
+          <div class="services_card_entrees" id="Brisket">
+            <h2>Brisket</h2>
+            <p>$12</p>
+            <div class="services_btn"></div>
+          </div>
+        </div>
+    </div>
+</body>
+<script src="../js/app.js"></script>
+<footer>
+
+</footer>
+</html>

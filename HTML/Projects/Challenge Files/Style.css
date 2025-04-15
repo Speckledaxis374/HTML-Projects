@@ -1,0 +1,168 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-size: 15px;
+}
+.wrapper h1{
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ color: hsl(229, 6%, 66%);
+    font-size: 30px;
+    font-weight: 100;
+    margin: 1rem;
+    font-family:poppins;
+}
+.wrapper h1 span{
+    align-items: center;
+ justify-content: center;
+ text-align: center;
+ color: hsl(234, 12%, 34%);
+ font-weight: 600;
+ font-family:poppins;
+}
+.wrapper p{
+    align-items: center;
+    justify-content: center;
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+    font-weight: 400;
+    margin-left: 2rem;
+    font-family:poppins;
+}
+.wrapper{
+    align-items: center;
+ justify-content: center;
+}
+.card--grid{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    border:3rem;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  0 4px 3px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    width: 280px;
+    margin: 1rem 3rem ;
+    padding: 2rem 1rem;
+    /* size: 120px; */
+    transform: translateX(40px);
+    border-top: 5px solid;
+    background-color: white;
+}
+.card:nth-child(1){
+    border-color:hsl(180, 62%, 55%) ;
+}
+.card:nth-child(2){
+    border-color:hsl(0, 78%, 62%) ;
+}
+.card:nth-child(3){
+    border-color:hsl(34, 97%, 64%) ;
+}
+.card:last-child{
+    border-color:hsl(212, 86%, 64%) ;
+}
+.attribution{
+    text-align: center;
+    align-items: center;
+ justify-content: center;
+}
+.card p, h2{
+    margin-left: 1rem;
+    text-align: left;
+}
+img{
+    align-items: end;
+    justify-content: end;
+    position: relative;
+    right: -75%;
+}
+@media screen and (min-width:1000px){
+    body{
+        background-color: hsl(0, 0%, 98%);
+        font-size: 15px;
+    }
+    .wrapper h1{
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     color: hsl(229, 6%, 66%);
+        font-size: 30px;
+        font-weight: 100;
+        margin: 0.5rem;
+    }
+    .wrapper h1 span{
+        align-items: center;
+     justify-content: center;
+     text-align: center;
+     color: hsl(234, 12%, 34%);
+     font-weight: 600;
+    }
+    .wrapper p{
+        align-items: center;
+        justify-content: center;
+        color: hsl(229, 6%, 66%);
+        text-align: center;
+        font-weight: 400;
+        margin-left: 1rem;
+    }
+    .wrapper{
+        align-items: center;
+     justify-content: center;
+    }
+    .card--grid{
+        display: grid;
+        align-items: center;
+     justify-content: center;
+    }
+    .card{
+        border:3rem;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        box-shadow:  0 4px 3px 0 rgba(0,0,0,0.4);
+        transition: 0.3s;
+        width: 300px;
+        margin: .5rem 1.5rem ;
+        padding: 1rem 1rem;
+        /* size: 120px; */
+        transform: translateX(40px);
+        border-top: 5px solid;
+        background-color: white;
+    }
+    .card:nth-child(1){
+        border-color:hsl(180, 62%, 55%) ;
+        transform: translate(-350px, 260px);
+    }
+    .card:nth-child(2){
+        border-color:hsl(0, 78%, 62%) ;
+        transform: translateY(-140PX);
+    }
+    .card:nth-child(3){
+        border-color:hsl(34, 97%, 64%) ;
+        transform: translate(-1px, -150px)
+        
+    }
+    .card:last-child{
+        border-color:hsl(212, 86%, 64%) ;
+        transform: translate(350px, -475px);
+    }
+    .attribution{
+        text-align: center;
+        align-items: center;
+     justify-content: center;
+    }
+    .card p, h2{
+        margin-left: 1rem;
+        text-align: left;
+    }
+    img{
+        align-items: end;
+        justify-content: end;
+        position: relative;
+        right: -75%;
+    }
+}

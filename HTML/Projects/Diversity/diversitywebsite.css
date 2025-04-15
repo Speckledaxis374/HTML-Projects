@@ -1,0 +1,183 @@
+body {
+    background-color: gray;
+    color: black;
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    z-index: 99999;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.services_card {
+     margin: 10px;
+    height: 400px;
+    width: 200;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to right, #03107e 0%, #33045f 100%);
+    transition: .5s ease-in-out;
+    z-index:1; 
+}
+
+.services_card h2 {
+    text-align: center;
+}
+
+.services_card p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.services_btn {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.services_btn button {
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 7px;
+    font-size: 1rem;
+    background: #000;
+    /*#000*/
+}
+
+.services_card:hover {
+    cursor: help;
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+    z-index: -99999;
+}
+
+.flip-card {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translate(calc(50vw - 250px));
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card .flip-card-inner:hover {
+    transform-origin: 50% 50%;
+    transform: rotateY(180deg) translate(calc(0px - (50vw - 50px)));
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flip-card-back {
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a0770;
+    color: white;
+    transform: rotateY(180deg);
+  }

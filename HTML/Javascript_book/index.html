@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructive &amp; Co.</title>
+    <link rel="stylesheet" href="c01/c01/css/c01.css">
+</head>
+<body>
+    <h1>Constructive &amp; Co.</h1>
+    <script>
+        let today = new Date();
+        let hourNow = today.getHours();
+        //let hourNow = 4;
+        let greeting="";
+
+        if(hourNow > 18){
+            greeting = "Good evening!"
+        }
+        else if(hourNow > 12){
+            greeting = "Good afternoon!"
+        }
+        else if(hourNow > 6){
+            greeting = "Good morning!"
+        }
+        else{
+            greeting = "Welcome"
+        }
+
+        document.write('<h3>' + greeting + '</h3>')
+    </script>
+    <p>For all orders and inquiries please call <em>555-1234</em></p>
+    <p id="demo"></p>
+    <script src="c01/c01/js/tallest.js"></script>
+</body>
+</html>

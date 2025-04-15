@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demo</title>
+    <!--internal style sheet-->
+    <style>
+        *{
+            background-color: orangered;
+        }
+    </style>
+    <link rel = "stylesheet" href="../CSS/Stylesheet.css">
+</head>
+<body>
+    <h1>This is a styled heading</h1><br>
+    This is not a styled heading
+
+<table>
+    <th colspan="3">My Table Heading</th>
+    <tr>
+        <td class = "blue"></td>
+        <td class="red"></td>
+        <td class="blue"></td>
+    </tr>
+    <tr>
+            <td class="red"></td>
+            <td class="blue"></td>
+            <td class="red"> </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+    <buttontype="button" onclick="documnet.getElementById('demoTime').innerHTML = Date()"
+       onmouseleave="document.getElementById('demoTime').innerHTML = ''" ></button> 
+
+       <p id ="demoTime"></p>
+</body>
+</html>

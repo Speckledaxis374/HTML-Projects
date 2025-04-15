@@ -1,0 +1,86 @@
+{
+    "Katalina's in Harrison West":[
+        {
+            "title": "Monday - Sunday",
+            "time": "8:00 AM - 3:00 PM"
+        }
+    ],
+    "Budd Dairy Food Hall":[
+        {
+            "title": "Tuesday - Wednesday",
+            "time": "4:00 PM - 11:00 PM"
+        },
+        {
+             "title": "Thursday",
+            "time": "11:00 AM - 11:00 PM"
+        },
+        {
+            "title": "Friday - Saturday",
+            "time": "11:00 AM - 12:00 AM"
+        },
+        {
+            "title": "Sunday",
+            "time": "11:00 AM - 10:00 PM"
+        }   
+    ],
+    "The Woodbury":[
+        {
+            "title": "Monday - Tuesday",
+            "time": "9:00 AM - 3:00 PM"
+        },
+        {
+            "title": "Wednesday - Thursday",
+            "time": "9:00 AM - 9:00 PM"
+        },
+        {
+            "title": "Friday - Saturday",
+            "time": "9:00 AM - 10:00 PM"
+        },
+        {
+            "title": "Sunday",
+            "time": "9:00 AM - 4:00 PM"
+        }   
+    ],
+    "Lindey's":[
+        {
+            "title": "Friday - Saturday",
+            "time": "11:00 AM - 11:00 PM"
+        },
+        {
+            "title": "Sunday-Thursday",
+            "time": "11:00 AM - 10:00 PM"
+        },
+        {
+             "title": "Happy hour",
+            "time": "4:30 - 6:30PM"
+        }
+    ],
+    "Sycamore":[
+        {
+            "title": "Monday - Thursday",
+            "time": "7:00 AM - 3:00 PM, 4:00 PM - 10:00 PM"
+        },
+        {
+            "title": "Friday - Saturday",
+            "time": "7:00 AM - 3:00 PM, 4:00 PM - 11:00 PM"
+        },
+        {
+            "title": "Happy hour",
+            "time": "1:00 PM - 3:00 PM, 4:00 PM - 6:00 PM"
+        }
+    ],
+    "Savor Bar & Grill":[
+        {
+            "title": "Monday - Saturday",
+            "time": "10:00 AM - 10:00 PM"
+        },  
+        {
+            "title": "Sunday",
+            "time": "Closed"
+        },
+        {
+            "title": "Happy hour",
+            "time": "4:00 PM - 7:00 PM"
+        }
+    ]
+}
