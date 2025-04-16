@@ -92,7 +92,7 @@
 
 .services_wrapper_index{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   height: 40%;
   align-items: center;
@@ -264,6 +264,15 @@
   background-color: goldenrod;
 }
 
+#Appetizers{
+  background-image: url(../imgs/LoadedMCBowl.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:  60%;
+  height: 60%;
+  text-decoration: none;
+}
+
 #Entrees{
   background-image: url(../imgs/wings.jpg);
   background-size: cover;
@@ -407,8 +416,6 @@
   background-repeat: no-repeat; 
   width: 80%;
 }
-
-
 
 .services_card > a {
   text-decoration: none;
