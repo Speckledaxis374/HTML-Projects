@@ -31,4 +31,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions or feedback, please reach out to [your-email@example.com](mailto:your-email@example.com).
+For questions or feedback, please reach out to [SoulforReal@gmail.com](mailto:your-email@example.com).
