@@ -107,6 +107,13 @@
     grid-template-rows: 1fr;
     height: 40%;
 }
+.services_wrapper_apps{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 0%;
+  margin-right: 10%;
+}
 
 #services_wrapper_sides{
   display: grid;
@@ -139,6 +146,23 @@
   margin: 60%;
   height:  60%;
   width: 60%;
+  border-radius: 40%;
+  margin-left: 20%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  transition: .5s ease-in-out;
+  text-decoration: none;
+}
+
+.services_card_apps{
+  margin: 40%;
+  height:  90%;
+  width: 90%;
   border-radius: 40%;
   margin-left: 20%;
   display: flex;
