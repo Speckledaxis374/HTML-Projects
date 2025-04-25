@@ -117,8 +117,8 @@
 
 #services_wrapper_sides{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   margin-right: 1%;
   padding-right: 20%;
   margin-left: 1%;
@@ -297,6 +297,42 @@
   text-decoration: none;
 }
 
+#Soul_Rolls{
+  background-image: url(../imgs/LoadedMCBowl.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:  80%;
+  height: 80%;
+  text-decoration: none;
+}
+
+#Crawfish_Shrimp_Mac{
+  background-image: url(../imgs/LoadedMCBowl.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:  80%;
+  height: 80%;
+  text-decoration: none;
+}
+
+#Loaded_Mac_and_Cheese_Bowl{
+  background-image: url(../imgs/LoadedMCBowl.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:  80%;
+  height: 80%;
+  text-decoration: none;
+}
+
+#Buffalo_Chicken_Dip{
+  background-image: url(../imgs/LoadedMCBowl.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:  80%;
+  height: 80%;
+  text-decoration: none;
+}
+
 #Entrees{
   background-image: url(../imgs/wings.jpg);
   background-size: cover;
@@ -353,6 +389,72 @@
   color: rgb(195, 196, 189);
 }
 
+#philly{
+  background-image: url(../imgs/wings.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#philly h2{
+  transform: translateY(40px);
+  color: black;
+}
+
+#Turkey_Legs{
+  background-image: url(../imgs/wings.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Turkey_Legs h2{
+  transform: translateY(40px);
+  color: black;
+}
+
+#Lamb_and_Grits{
+  background-image: url(../imgs/wings.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Lamb_and_Grits h2{
+  transform: translateY(40px);
+  color: black;
+}
+
+#Pot_Roast{
+  background-image: url(../imgs/wings.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Pot_Roast h2{
+  transform: translateY(40px);
+  color: black;
+}
+
+#Short_Rib{
+  background-image: url(../imgs/wings.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Short_Rib h2{
+  transform: translateY(40px);
+  color: black;
+}
+
+#Craw_and_Grits{
+  background-image: url(../imgs/wings.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Craw_and_Grits h2{
+  transform: translateY(40px);
+  color: black;
+}
+
 #index{
   background-image: url(../imgs/wings.jpg);
   background-size: cover;
@@ -384,8 +486,55 @@
   background-position-x: -170px;
 }
 
+#greens{
+  background-image: url(../imgs/greens.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #Yams{
   background-image: url(../imgs/yams.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Mash{
+  background-image: url(../imgs/Okra.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#DRice{
+  background-image: url(../imgs/Okra.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Green_Beans{
+  background-image: url(../imgs/Okra.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Baked_Beans{
+  background-image: url(../imgs/Okra.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#SC_Fries{
+  background-image: url(../imgs/Okra.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Cheddar_Bay{
+  background-image: url(../imgs/Okra.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Black_Eyed_Peas{
+  background-image: url(../imgs/Okra.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -403,12 +552,7 @@
   margin-right: 10% !important;
 }
 
-#greens{
-  background-image: url(../imgs/greens.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-left: 260px;
-}
+
   
 #Desserts{
   background-image: url(../imgs/peach-cobbler.jpg);
@@ -441,6 +585,54 @@
   width: 80%;
 }
 
+#Sweet_Potato_Pie{
+  background-image: url(../imgs/peach-cobbler.jpg);
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat; 
+  width: 80%;
+}
+
+#Brownie{
+  background-image: url(../imgs/peach-cobbler.jpg);
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat; 
+  width: 80%;
+}
+
+#Cookie{
+  background-image: url(../imgs/peach-cobbler.jpg);
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat; 
+  width: 80%;
+}
+
+#Pizookie{
+  background-image: url(../imgs/peach-cobbler.jpg);
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat; 
+  width: 80%;
+}
+
+#Strawberry_Cheesecake{
+  background-image: url(../imgs/peach-cobbler.jpg);
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat; 
+  width: 80%;
+}
+
+#Red_Velvet_Cake{
+  background-image: url(../imgs/peach-cobbler.jpg);
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat; 
+  width: 80%;
+}
+
 .services_card > a {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -453,7 +645,7 @@
   margin-top: 3rem;
   margin-bottom: 3rem;
   width: 80%;
-  height: 350px;
+  height:40em;
   margin-left: 3%;
   /* transform: translateX(20%); */
   }
