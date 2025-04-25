@@ -1,3 +1,6 @@
+body{
+  background-color: rgb(71, 71, 71);
+}
 .cookie-regular {
     font-family: "Cookie", cursive;
     font-weight: 400;
@@ -9,6 +12,9 @@
     
     transform: translateY(-1px);
 
+  }
+  #main{
+    background-color: rgb(71, 71, 71);
   }
   .head-logo{
     display: flex;
@@ -63,6 +69,7 @@
     align-items: center;
     height: 100%;
     padding: 5%;
+    background-color: rgb(71, 71, 71);
 }
 
 .services_desserts{
@@ -126,7 +133,7 @@
 
 #services_wrapper_entrees{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   height: 40%;
   width: 90%;
@@ -357,7 +364,7 @@
   background-image: url(../imgs/smothered-chops.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: -50px;
+  background-position-y: 0px;
 }
 
 #Chops h2{
@@ -390,7 +397,7 @@
 }
 
 #philly{
-  background-image: url(../imgs/wings.jpg);
+  background-image: url(../imgs/PhillyCheeseSteak.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -401,9 +408,10 @@
 }
 
 #Turkey_Legs{
-  background-image: url(../imgs/wings.jpg);
+  background-image: url(../imgs/Soul-Turkey.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: -60PX;
 }
 
 #Turkey_Legs h2{
@@ -412,9 +420,10 @@
 }
 
 #Lamb_and_Grits{
-  background-image: url(../imgs/wings.jpg);
+  background-image: url(../imgs/Chops-and-Grits.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-y: -100PX;
 }
 
 #Lamb_and_Grits h2{
@@ -423,9 +432,10 @@
 }
 
 #Pot_Roast{
-  background-image: url(../imgs/wings.jpg);
+  background-image: url(../imgs/Roast.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-y: -60PX;
 }
 
 #Pot_Roast h2{
@@ -434,9 +444,10 @@
 }
 
 #Short_Rib{
-  background-image: url(../imgs/wings.jpg);
+  background-image: url(../imgs/BBQ-short_rib_grilled_cheese.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: -60PX;
 }
 
 #Short_Rib h2{
@@ -445,9 +456,10 @@
 }
 
 #Craw_and_Grits{
-  background-image: url(../imgs/wings.jpg);
+  background-image: url(../imgs/Craw-and-Grits.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: -60PX;
 }
 
 #Craw_and_Grits h2{
@@ -498,43 +510,43 @@
   background-repeat: no-repeat;
 }
 #Mash{
-  background-image: url(../imgs/Okra.jpg);
+  background-image: url(../imgs/MashPot.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #DRice{
-  background-image: url(../imgs/Okra.jpg);
+  background-image: url(../imgs/dirty-rice.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #Green_Beans{
-  background-image: url(../imgs/Okra.jpg);
+  background-image: url(../imgs/green-beans.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
+  background-position-x: -30px;}
 
 #Baked_Beans{
-  background-image: url(../imgs/Okra.jpg);
+  background-image: url(../imgs/baked-beans.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #SC_Fries{
-  background-image: url(../imgs/Okra.jpg);
+  background-image: url(../imgs/Soul-Fries.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #Cheddar_Bay{
-  background-image: url(../imgs/Okra.jpg);
+  background-image: url(../imgs/Cheddar-bay-waffles.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #Black_Eyed_Peas{
-  background-image: url(../imgs/Okra.jpg);
+  background-image: url(../imgs/black-eyed-peas.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
