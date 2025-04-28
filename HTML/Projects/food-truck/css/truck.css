@@ -305,7 +305,7 @@ body{
 }
 
 #Soul_Rolls{
-  background-image: url(../imgs/LoadedMCBowl.png);
+  background-image: url(../imgs/soulRolls.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width:  80%;
@@ -314,11 +314,12 @@ body{
 }
 
 #Crawfish_Shrimp_Mac{
-  background-image: url(../imgs/LoadedMCBowl.png);
+  background-image: url(../imgs/Craw-Shrimp-Mac.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width:  80%;
   height: 80%;
+  background-position-y: -70px;
   text-decoration: none;
 }
 
@@ -332,7 +333,7 @@ body{
 }
 
 #Buffalo_Chicken_Dip{
-  background-image: url(../imgs/LoadedMCBowl.png);
+  background-image: url(../imgs/Buffalochickendip.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width:  80%;
@@ -423,7 +424,7 @@ body{
   background-image: url(../imgs/Chops-and-Grits.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -100PX;
+  background-position-y: -40PX;
 }
 
 #Lamb_and_Grits h2{
@@ -598,7 +599,7 @@ body{
 }
 
 #Sweet_Potato_Pie{
-  background-image: url(../imgs/peach-cobbler.jpg);
+  background-image: url(../imgs/Sweet-Potato-Pie.jpg);
   background-size: cover;
   text-align: center;
   background-repeat: no-repeat; 
@@ -606,7 +607,7 @@ body{
 }
 
 #Brownie{
-  background-image: url(../imgs/peach-cobbler.jpg);
+  background-image: url(../imgs/Brownies.jpg);
   background-size: cover;
   text-align: center;
   background-repeat: no-repeat; 
@@ -614,7 +615,7 @@ body{
 }
 
 #Cookie{
-  background-image: url(../imgs/peach-cobbler.jpg);
+  background-image: url(../imgs/Chocolate-Chip-Cookie.jpg);
   background-size: cover;
   text-align: center;
   background-repeat: no-repeat; 
@@ -622,7 +623,7 @@ body{
 }
 
 #Pizookie{
-  background-image: url(../imgs/peach-cobbler.jpg);
+  background-image: url(../imgs/pizookie.jpg);
   background-size: cover;
   text-align: center;
   background-repeat: no-repeat; 
@@ -630,18 +631,20 @@ body{
 }
 
 #Strawberry_Cheesecake{
-  background-image: url(../imgs/peach-cobbler.jpg);
+  background-image: url(../imgs/Strawberry-Cheesecake.jpg);
   background-size: cover;
   text-align: center;
   background-repeat: no-repeat; 
+  background-position-x: -90px;
   width: 80%;
 }
 
 #Red_Velvet_Cake{
-  background-image: url(../imgs/peach-cobbler.jpg);
+  background-image: url(../imgs/velvet-cake.jpg);
   background-size: cover;
   text-align: center;
   background-repeat: no-repeat; 
+  background-position-x: -120px;
   width: 80%;
 }
 
