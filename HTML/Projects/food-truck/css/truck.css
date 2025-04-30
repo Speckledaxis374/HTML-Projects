@@ -424,7 +424,7 @@ body{
   background-image: url(../imgs/Chops-and-Grits.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -40PX;
+  background-position-y: -10%;
 }
 
 #Lamb_and_Grits h2{
@@ -436,7 +436,7 @@ body{
   background-image: url(../imgs/Roast.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -60PX;
+  background-position-y: -20%;
 }
 
 #Pot_Roast h2{
