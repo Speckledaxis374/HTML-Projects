@@ -3,109 +3,235 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soul for Real</title>
+    <title>Soul for Real - Sides</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/truck.css">
-    <style>
-      #services_card{
-        margin-left: -100px;
-      }
-    </style>
-</head>
+    </head>
 <header>
     <div class="head-logo">
-        <a href="./index.html"><img src="../imgs/logo.png"></a>
+        <a href="./index.html"><img src="../imgs/logo.png" alt="Soul for Real Logo"></a>
         <h3 class="cookie-regular">Soul for Real</h3>
     </div>
-   
 </header>
 <body>
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="./index.html">Home</a>
-    <a href="./Appetizer.html">Appetizers</a>
-    <a href="./Entrees.html">Entrees</a>
-    <a href="./Sides.html">Sides</a>
-    <a href="./Desserts.html">Desserts</a>
-    <a style="transform: translateY(400px); font-size: 30px; padding-left: 2%;">"Soul for Real"</a>
-  </div>
-
-  <div id="main">
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-  </div>
-
-    
-    <div class="services" id="services">
-        <h1></h1>
-        <div class="services_wrapper" id="services_wrapper_sides">
-          <div class="services_card_sides" id="Fries">
-            <h2>French Fries</h2>
-            <p>$9</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_sides" id="Okra">
-            <h2>Fried Okra</h2>
-            <p>$8</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_sides" id="Yams">
-            <h2>Candied Yams</h2>
-            <p>$8</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_sides" id="Mac">
-            <h2>Mac & Cheese</h2>
-            <p>$7</p>
-            <div class="services_btn"></div>
-          </div>
-          
-          <div class="services_card_sides" id="greens">
-            <h2>Collard Greens</h2>
-            <p>$9</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_sides" id="Mash">
-            <h2>Mashed Potatoes and Gravy</h2>
-            <p>$6</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_sides" id="DRice">
-            <h2>Dirty Rice</h2>
-            <p>$10</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_sides" id="Green_Beans">
-            <h2>Green Beans</h2>
-            <p>$4</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_sides" id="Baked_Beans">
-            <h2>Baked Beans</h2>
-            <p>$5</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_sides" id="SC_Fries">
-            <h2>Soul Cheese Fries</h2>
-            <p>$10</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_sides" id="Cheddar_Bay">
-            <h2>Cheddar Bay Biscuit Waffles</h2>
-            <p>$12</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_sides" id="Black_Eyed_Peas">
-            <h2>Black Eyed Peas</h2>
-            <p>$5</p>
-            <div class="services_btn"></div>
-          </div>
-        </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="./index.html">Home</a>
+        <a href="./Appetizers.html">Appetizers</a>
+        <a href="./Entrees.html">Entrees</a>
+        <a href="./Sides.html">Sides</a>
+        <a href="./Desserts.html">Desserts</a>
+        <a style="transform: translateY(400px); font-size: 30px; padding-left: 2%;">"Soul for Real"</a>
     </div>
-</body>
-<script src="../js/app.js"></script>
-<footer>
 
-</footer>
+    <div id="main">
+        <span style="font-size:30px;cursor:pointer; color: #eee;" onclick="openNav()">&#9776;</span>
+    </div>
+
+    <div class="services" id="services">
+        <h1>Sides</h1>
+        <div class="services_wrapper_index"> <div class="card" id="Fries">
+            <a href="#fries_details" onclick="event.preventDefault();">
+                <h2>French Fries</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">French Fries</h3>
+                    <span class="mini-menu-item-price">$6</span> </div>
+                <p class="mini-menu-description">
+                    Classic, crispy golden french fries, lightly salted.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 350 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Okra">
+            <a href="#okra_details" onclick="event.preventDefault();">
+                <h2>Fried Okra</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Fried Okra</h3>
+                    <span class="mini-menu-item-price">$7</span> </div>
+                <p class="mini-menu-description">
+                    Sliced okra coated in cornmeal and fried until golden brown.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 300 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Yams">
+            <a href="#yams_details" onclick="event.preventDefault();">
+                <h2>Candied Yams</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Candied Yams</h3>
+                    <span class="mini-menu-item-price">$7</span> </div>
+                <p class="mini-menu-description">
+                    Sweet potatoes baked in a buttery, brown sugar glaze with warm spices.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 400 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Mac">
+            <a href="#mac_details" onclick="event.preventDefault();">
+                <h2>Mac & Cheese</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Mac & Cheese</h3>
+                    <span class="mini-menu-item-price">$7</span>
+                </div>
+                <p class="mini-menu-description">
+                    Creamy, cheesy, baked macaroni and cheese, made the soulful way.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 550 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="greens">
+            <a href="#greens_details" onclick="event.preventDefault();">
+                <h2>Collard Greens</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Collard Greens</h3>
+                    <span class="mini-menu-item-price">$6</span> </div>
+                <p class="mini-menu-description">
+                    Slow-simmered collard greens seasoned with smoked turkey or bacon.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 250 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Mash">
+            <a href="#mash_details" onclick="event.preventDefault();">
+                <h2>Mashed Potatoes & Gravy</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Mashed Potatoes & Gravy</h3>
+                    <span class="mini-menu-item-price">$6</span>
+                </div>
+                <p class="mini-menu-description">
+                    Creamy mashed potatoes served with a rich, savory brown gravy.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 400 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="DRice">
+            <a href="#drice_details" onclick="event.preventDefault();">
+                <h2>Dirty Rice</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Dirty Rice</h3>
+                    <span class="mini-menu-item-price">$7</span> </div>
+                <p class="mini-menu-description">
+                    Flavorful Cajun rice cooked with ground meat, peppers, onions, and spices.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 450 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Green_Beans">
+            <a href="#greenbeans_details" onclick="event.preventDefault();">
+                <h2>Green Beans</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Green Beans</h3>
+                    <span class="mini-menu-item-price">$5</span> </div>
+                <p class="mini-menu-description">
+                    Southern-style green beans simmered with bacon or smoked turkey.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 200 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Baked_Beans">
+            <a href="#bakedbeans_details" onclick="event.preventDefault();">
+                <h2>Baked Beans</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Baked Beans</h3>
+                    <span class="mini-menu-item-price">$5</span>
+                </div>
+                <p class="mini-menu-description">
+                    Sweet and savory baked beans slow-cooked with molasses and spices.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 350 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="SC_Fries">
+            <a href="#scfries_details" onclick="event.preventDefault();">
+                <h2>Soul Cheese Fries</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Soul Cheese Fries</h3>
+                    <span class="mini-menu-item-price">$10</span>
+                </div>
+                <p class="mini-menu-description">
+                    Crispy fries loaded with melted cheese, bacon bits, and a drizzle of ranch.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 650 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Cheddar_Bay">
+            <a href="#cheddarwaffles_details" onclick="event.preventDefault();">
+                <h2>Cheddar Bay Biscuit Waffles</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Cheddar Bay Waffles</h3>
+                    <span class="mini-menu-item-price">$8</span> </div>
+                <p class="mini-menu-description">
+                    Savory waffles made from cheddar bay biscuit batter, served with butter.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 500 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Black_Eyed_Peas">
+            <a href="#bepeas_details" onclick="event.preventDefault();">
+                <h2>Black Eyed Peas</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Black Eyed Peas</h3>
+                    <span class="mini-menu-item-price">$5</span>
+                </div>
+                <p class="mini-menu-description">
+                    Traditional Southern black-eyed peas simmered with savory seasonings.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 280 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> </div> </div> <footer>
+        </footer>
+
+    <script src="../js/app.js"></script>
+</body>
 </html>

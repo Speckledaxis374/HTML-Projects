@@ -3,119 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soul for Real</title>
+    <title>Soul for Real - Entrees</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
-    <link rel="stylesheet"  href="../css/truck.css">
-    <style>
-      #wings p {
-        color: black;
-        transform: translateY(40px);
-      }
-      #Chops p {
-        color: black;
-        transform: translateY(46px);
-      }
-      #fish p {
-        color: black;
-        transform: translateY(46px);
-      }
-      #Brisket p{
-        color: black;
-        align-items: center;
-        justify-content: center;
-        transform: translateY(46px);
-      }
-      @media screen and (max-width:550px) {
-        #wings p {
-          transform: translateY(40px);
-        }
-        
-      }
-    </style>
-</head>
+    <link rel="stylesheet" href="../css/truck.css">
+    </head>
 <header>
     <div class="head-logo">
-        <a href="./index.html"><img src="../imgs/logo.png"></a>
+        <a href="./index.html"><img src="../imgs/logo.png" alt="Soul for Real Logo"></a>
         <h3 class="cookie-regular">Soul for Real</h3>
     </div>
-   
 </header>
 <body>
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="./index.html">Home</a>
-    <a href="./Appetizer.html">Appetizers</a>
-    <a href="./Entrees.html">Entrees</a>
-    <a href="./Sides.html">Sides</a>
-    <a href="./Desserts.html">Desserts</a>
-    <a style="transform: translateY(400px); font-size: 30px; padding-left: 2%;">"Soul for Real"</a>
-  </div>
-
-  <div id="main">
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-  </div>
-
-    
-    <div class="services" id="services_entrees">
-        <h1></h1>
-        <div class="services_wrapper" id="services_wrapper_entrees">
-          <div class="services_card_entrees" id="wings" >
-            <h2>Fried chicken Wings</h2>
-            <p>$10</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_entrees" id="Chops" >
-            <h2>Smothered pork chops</h2>
-            <p>$12</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_entrees" id="fish">
-            <h2>Fried Catfish</h2>
-            <p>$12</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_entrees" id="Brisket">
-            <h2>Brisket</h2>
-            <p>$15</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_entrees" id="philly" >
-            <h2>Steak or Chicken Philly</h2>
-            <p>$14</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_entrees" id="Turkey_Legs" >
-            <h2>Soul Stuffed Turkey Legs</h2>
-            <p>$20</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_entrees" id="Lamb_and_Grits" >
-            <h2>Lamb Chops and Grits</h2>
-            <p>$18</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_entrees" id="Pot_Roast" >
-            <h2>Pot Roast Soul Bowl</h2>
-            <p>$14</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_entrees" id="Short_Rib" >
-            <h2>BBQ Beef Short Rib Grilled Cheese</h2>
-            <p>$12</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_entrees" id="Craw_and_Grits" >
-            <h2>Crawfish and Grits</h2>
-            <p>$18</p>
-            <div class="services_btn"></div>
-          </div>
-        </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="./index.html">Home</a>
+        <a href="./Appetizers.html">Appetizers</a>
+        <a href="./Entrees.html">Entrees</a>
+        <a href="./Sides.html">Sides</a>
+        <a href="./Desserts.html">Desserts</a>
+        <a style="transform: translateY(400px); font-size: 30px; padding-left: 2%;">"Soul for Real"</a>
     </div>
-</body>
-<script src="../js/app.js"></script>
-<footer>
 
-</footer>
+    <div id="main">
+        <span style="font-size:30px;cursor:pointer; color: #eee;" onclick="openNav()">&#9776;</span>
+    </div>
+
+    <div class="services" id="services_entrees"> <h1>Entrees</h1>
+        <div class="services_wrapper_index"> <div class="card" id="wings">
+                <a href="#wings_details" onclick="event.preventDefault();">
+                    <h2>Fried Chicken Wings</h2>
+                </a>
+                <div class="mini-menu">
+                    <div class="mini-menu-top">
+                        <h3 class="mini-menu-item-name">Fried Chicken Wings</h3>
+                        <span class="mini-menu-item-price">$10</span>
+                    </div>
+                    <p class="mini-menu-description">
+                        Perfectly seasoned and crispy fried chicken wings, served plain or tossed in your favorite sauce.
+                    </p>
+                    <div class="mini-menu-bottom">
+                        <span class="mini-menu-calories">Approx. 600 Cal</span>
+                        <button type="button" class="see-more-btn">See More</button>
+                    </div>
+                </div>
+            </div> <div class="card" id="Chops">
+                <a href="#chops_details" onclick="event.preventDefault();">
+                    <h2>Smothered Pork Chops</h2>
+                </a>
+                <div class="mini-menu">
+                    <div class="mini-menu-top">
+                        <h3 class="mini-menu-item-name">Smothered Pork Chops</h3>
+                        <span class="mini-menu-item-price">$12</span>
+                    </div>
+                    <p class="mini-menu-description">
+                        Tender, pan-fried pork chops smothered in rich, savory onion gravy. A true comfort classic.
+                    </p>
+                    <div class="mini-menu-bottom">
+                        <span class="mini-menu-calories">Approx. 750 Cal</span>
+                        <button type="button" class="see-more-btn">See More</button>
+                    </div>
+                </div>
+            </div> <div class="card" id="fish">
+                <a href="#fish_details" onclick="event.preventDefault();">
+                    <h2>Fried Catfish</h2>
+                </a>
+                <div class="mini-menu">
+                    <div class="mini-menu-top">
+                        <h3 class="mini-menu-item-name">Fried Catfish</h3>
+                        <span class="mini-menu-item-price">$12</span>
+                    </div>
+                    <p class="mini-menu-description">
+                        Golden-fried catfish fillets with a crispy cornmeal crust. Served with tartar sauce and lemon.
+                    </p>
+                    <div class="mini-menu-bottom">
+                        <span class="mini-menu-calories">Approx. 650 Cal</span>
+                        <button type="button" class="see-more-btn">See More</button>
+                    </div>
+                </div>
+            </div> <div class="card" id="Brisket">
+                <a href="#brisket_details" onclick="event.preventDefault();">
+                    <h2>Brisket</h2>
+                </a>
+                <div class="mini-menu">
+                    <div class="mini-menu-top">
+                        <h3 class="mini-menu-item-name">Brisket</h3>
+                        <span class="mini-menu-item-price">$15</span>
+                    </div>
+                    <p class="mini-menu-description">
+                        Slow-smoked, tender beef brisket sliced thick and served with our signature BBQ sauce.
+                    </p>
+                    <div class="mini-menu-bottom">
+                        <span class="mini-menu-calories">Approx. 700 Cal</span>
+                        <button type="button" class="see-more-btn">See More</button>
+                    </div>
+                </div>
+            </div> <div class="card" id="philly">
+                <a href="#philly_details" onclick="event.preventDefault();">
+                    <h2>Steak or Chicken Philly</h2>
+                </a>
+                <div class="mini-menu">
+                    <div class="mini-menu-top">
+                        <h3 class="mini-menu-item-name">Steak/Chicken Philly</h3>
+                        <span class="mini-menu-item-price">$14</span>
+                    </div>
+                    <p class="mini-menu-description">
+                        Your choice of thinly sliced steak or chicken, grilled with onions and peppers, topped with melted cheese on a hoagie roll.
+                    </p>
+                    <div class="mini-menu-bottom">
+                        <span class="mini-menu-calories">Approx. 800 Cal</span>
+                        <button type="button" class="see-more-btn">See More</button>
+                    </div>
+                </div>
+            </div> <div class="card" id="Turkey_Legs">
+                <a href="#turkey_legs_details" onclick="event.preventDefault();">
+                    <h2>Soul Stuffed Turkey Legs</h2>
+                </a>
+                <div class="mini-menu">
+                    <div class="mini-menu-top">
+                        <h3 class="mini-menu-item-name">Stuffed Turkey Legs</h3>
+                        <span class="mini-menu-item-price">$20</span>
+                    </div>
+                    <p class="mini-menu-description">
+                        Giant smoked turkey leg stuffed with dirty rice or mac & cheese, smothered in a creamy sauce.
+                    </p>
+                    <div class="mini-menu-bottom">
+                        <span class="mini-menu-calories">Approx. 1100 Cal</span>
+                        <button type="button" class="see-more-btn">See More</button>
+                    </div>
+                </div>
+            </div> <div class="card" id="Lamb_and_Grits">
+                <a href="#lamb_grits_details" onclick="event.preventDefault();">
+                    <h2>Lamb Chops and Grits</h2>
+                </a>
+                <div class="mini-menu">
+                    <div class="mini-menu-top">
+                        <h3 class="mini-menu-item-name">Lamb Chops & Grits</h3>
+                        <span class="mini-menu-item-price">$18</span>
+                    </div>
+                    <p class="mini-menu-description">
+                        Grilled lamb chops seasoned to perfection, served over a bed of creamy, savory grits.
+                    </p>
+                    <div class="mini-menu-bottom">
+                        <span class="mini-menu-calories">Approx. 850 Cal</span>
+                        <button type="button" class="see-more-btn">See More</button>
+                    </div>
+                </div>
+            </div> <div class="card" id="Pot_Roast">
+                <a href="#pot_roast_details" onclick="event.preventDefault();">
+                    <h2>Pot Roast Soul Bowl</h2>
+                </a>
+                <div class="mini-menu">
+                    <div class="mini-menu-top">
+                        <h3 class="mini-menu-item-name">Pot Roast Soul Bowl</h3>
+                        <span class="mini-menu-item-price">$14</span>
+                    </div>
+                    <p class="mini-menu-description">
+                        Tender, slow-cooked pot roast served over mashed potatoes or rice with rich gravy and vegetables.
+                    </p>
+                    <div class="mini-menu-bottom">
+                        <span class="mini-menu-calories">Approx. 720 Cal</span>
+                        <button type="button" class="see-more-btn">See More</button>
+                    </div>
+                </div>
+            </div> <div class="card" id="Short_Rib"> <a href="#short_rib_details" onclick="event.preventDefault();">
+                    <h2>BBQ Short Rib Grilled Cheese</h2>
+                </a>
+                <div class="mini-menu">
+                    <div class="mini-menu-top">
+                        <h3 class="mini-menu-item-name">BBQ Short Rib GC</h3>
+                        <span class="mini-menu-item-price">$12</span>
+                    </div>
+                    <p class="mini-menu-description">
+                        Braised beef short rib tossed in BBQ sauce, melted between slices of toasted bread with cheese.
+                    </p>
+                    <div class="mini-menu-bottom">
+                        <span class="mini-menu-calories">Approx. 900 Cal</span>
+                        <button type="button" class="see-more-btn">See More</button>
+                    </div>
+                </div>
+            </div> <div class="card" id="Craw_and_Grits">
+                <a href="#craw_grits_details" onclick="event.preventDefault();">
+                    <h2>Crawfish and Grits</h2>
+                </a>
+                <div class="mini-menu">
+                    <div class="mini-menu-top">
+                        <h3 class="mini-menu-item-name">Crawfish & Grits</h3>
+                        <span class="mini-menu-item-price">$18</span>
+                    </div>
+                    <p class="mini-menu-description">
+                       Sautéed crawfish tails in a spicy, creamy sauce served over a generous portion of stone-ground grits.
+                    </p>
+                    <div class="mini-menu-bottom">
+                        <span class="mini-menu-calories">Approx. 780 Cal</span>
+                        <button type="button" class="see-more-btn">See More</button>
+                    </div>
+                </div>
+            </div> </div> </div> <footer>
+        </footer>
+
+    <script src="../js/app.js"></script>
+</body>
 </html>

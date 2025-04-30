@@ -3,88 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soul for Real</title>
+    <title>Soul for Real - Desserts</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/truck.css">
-</head>
+    </head>
 <header>
     <div class="head-logo">
-        <a href="./index.html"><img src="../imgs/logo.png"></a>
+        <a href="./index.html"><img src="../imgs/logo.png" alt="Soul for Real Logo"></a>
         <h3 class="cookie-regular">Soul for Real</h3>
     </div>
-   
 </header>
 <body>
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="./index.html">Home</a>
-    <a href="./Appetizer.html">Appetizers</a>
-    <a href="./Entrees.html">Entrees</a>
-    <a href="./Sides.html">Sides</a>
-    <a href="./Desserts.html">Desserts</a>
-    <a style="transform: translateY(400px); font-size: 30px; padding-left: 2%;">"Soul for Real"</a>
-  </div>
-
-  <div id="main">
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-  </div>
-
-    
-    <div class="services" id="services">
-        <h1></h1>
-        <div class="services_wrapper_desserts">
-          <div class="services_card_desserts" id="Peach_cobbler">
-            <h2>Peach cobbler</h2>
-            <p>$8</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_desserts" id="Pecan_pie" >
-            <h2>Pecan Pie</h2>
-            <p>$7</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_desserts" id="Banana_Pudding">
-            <h2>Banana Pudding</h2>
-            <p>$10</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_desserts" id="Sweet_Potato_Pie">
-            <h2>Sweet Potato Pie</h2>
-            <p>$8</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_desserts" id="Brownie">
-            <h2>Brownie</h2>
-            <p>$4</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_desserts" id="Cookie">
-            <h2>Chocolate Chip Cookie</h2>
-            <p>$4</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_desserts" id="Pizookie">
-            <h2>Pizookie</h2>
-            <p>$10</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_desserts" id="Strawberry_Cheesecake">
-            <h2>Strawberry Cheesecake</h2>
-            <p>$8</p>
-            <div class="services_btn"></div>
-          </div>
-          <div class="services_card_desserts" id="Red_Velvet_Cake">
-            <h2>Red Velvet Cake</h2>
-            <p>$8</p>
-            <div class="services_btn"></div>
-          </div>
-        </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="./index.html">Home</a>
+        <a href="./Appetizers.html">Appetizers</a>
+        <a href="./Entrees.html">Entrees</a>
+        <a href="./Sides.html">Sides</a>
+        <a href="./Desserts.html">Desserts</a>
+        <a style="transform: translateY(400px); font-size: 30px; padding-left: 2%;">"Soul for Real"</a>
     </div>
-</body>
-<script src="../js/app.js"></script>
-<footer>
 
-</footer>
+    <div id="main">
+        <span style="font-size:30px;cursor:pointer; color: #eee;" onclick="openNav()">&#9776;</span>
+    </div>
+
+    <div class="services" id="services">
+        <h1>Desserts</h1>
+        <div class="services_wrapper_index"> <div class="card" id="Peach_cobbler">
+            <a href="#peachcobbler_details" onclick="event.preventDefault();">
+                <h2>Peach Cobbler</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Peach Cobbler</h3>
+                    <span class="mini-menu-item-price">$8</span>
+                </div>
+                <p class="mini-menu-description">
+                    Warm, sweet peaches baked under a delicious buttery crust. Served with optional ice cream.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 500 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Pecan_pie">
+            <a href="#pecanpie_details" onclick="event.preventDefault();">
+                <h2>Pecan Pie</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Pecan Pie</h3>
+                    <span class="mini-menu-item-price">$7</span>
+                </div>
+                <p class="mini-menu-description">
+                    Classic Southern pecan pie with a rich, sweet filling and toasted pecans in a flaky crust.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 600 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Banana_Pudding">
+            <a href="#bananapudding_details" onclick="event.preventDefault();">
+                <h2>Banana Pudding</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Banana Pudding</h3>
+                    <span class="mini-menu-item-price">$7</span> </div>
+                <p class="mini-menu-description">
+                    Layers of creamy vanilla pudding, fresh bananas, and vanilla wafers, topped with whipped cream.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 450 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Sweet_Potato_Pie">
+            <a href="#sppie_details" onclick="event.preventDefault();">
+                <h2>Sweet Potato Pie</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Sweet Potato Pie</h3>
+                    <span class="mini-menu-item-price">$7</span> </div>
+                <p class="mini-menu-description">
+                    Smooth, spiced sweet potato filling baked in a flaky pie crust. A holiday favorite anytime.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 480 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Brownie">
+            <a href="#brownie_details" onclick="event.preventDefault();">
+                <h2>Brownie</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Brownie</h3>
+                    <span class="mini-menu-item-price">$4</span>
+                </div>
+                <p class="mini-menu-description">
+                    Rich, fudgy chocolate brownie. Simple, classic, and delicious.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 350 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Cookie">
+            <a href="#cookie_details" onclick="event.preventDefault();">
+                <h2>Chocolate Chip Cookie</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Chocolate Chip Cookie</h3>
+                    <span class="mini-menu-item-price">$4</span>
+                </div>
+                <p class="mini-menu-description">
+                    Large, warm chocolate chip cookie, soft in the middle and crispy on the edges.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 300 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Pizookie">
+            <a href="#pizookie_details" onclick="event.preventDefault();">
+                <h2>Pizookie</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Pizookie</h3>
+                    <span class="mini-menu-item-price">$10</span>
+                </div>
+                <p class="mini-menu-description">
+                    A giant chocolate chip cookie baked in a personal pan, served warm and topped with vanilla ice cream.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 800 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Strawberry_Cheesecake">
+            <a href="#scheesecake_details" onclick="event.preventDefault();">
+                <h2>Strawberry Cheesecake</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Strawberry Cheesecake</h3>
+                    <span class="mini-menu-item-price">$8</span>
+                </div>
+                <p class="mini-menu-description">
+                    Creamy New York style cheesecake topped with sweet strawberry glaze and fresh strawberries.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 550 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> <div class="card" id="Red_Velvet_Cake">
+            <a href="#rvcake_details" onclick="event.preventDefault();">
+                <h2>Red Velvet Cake</h2>
+            </a>
+            <div class="mini-menu">
+                <div class="mini-menu-top">
+                    <h3 class="mini-menu-item-name">Red Velvet Cake</h3>
+                    <span class="mini-menu-item-price">$8</span>
+                </div>
+                <p class="mini-menu-description">
+                    Classic red velvet cake with layers of moist cake and rich cream cheese frosting.
+                </p>
+                <div class="mini-menu-bottom">
+                    <span class="mini-menu-calories">Approx. 600 Cal</span>
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
+            </div>
+          </div> </div> </div> <footer>
+        </footer>
+
+    <script src="../js/app.js"></script>
+</body>
 </html>
