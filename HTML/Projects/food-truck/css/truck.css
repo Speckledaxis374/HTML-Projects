@@ -321,7 +321,8 @@ body{
 .card {
   position: relative;
   overflow: visible; 
-  border-radius: 15px; 
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   background-color: #555;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -337,6 +338,9 @@ body{
 }
 
 #Appetizers { background-image: url(../imgs/LoadedMCBowl.png); }
+/* #Soul_Rolls{background-position-y: -40px;}
+#Crawfish_Shrimp_Mac{background-position-y: -90px;}
+#Buffalo_Chicken_Dip{background-position-y: -160px;} */
 #Entrees { background-image: url(../imgs/wings.jpg); }
 #Sides { background-image: url(../imgs/Okra.jpg); }
 #Desserts { background-image: url(../imgs/peach-cobbler.jpg); }
